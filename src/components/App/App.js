@@ -25,22 +25,25 @@ function App() {
           <Menu tems={tems} setTems={setTems} />
         )}
       <Switch>
+        <Route exact path="/school-site">
+          <Redirect to="/main" />
+        </Route>
         <Route exact path="/">
           <Redirect to="/main" />
         </Route>
-          <Route path="/main">
+        <Route exact path="/main">
             <Main tems={tems}/>
           </Route>
-        <Route path="/homework">
+        <Route exact path="/homework">
           <Homework tems={tems} />
         </Route>
-        <Route path="/education">
-          <Education tems={tems}/>
+        <Route exact path="/education">
+          <Education exact tems={tems}/>
         </Route>
-        <Route path="/notfound">
+        <Route exact path="/notfound">
           <NotFound tems={tems} />
         </Route>
-          <Route>
+        <Route path="*">
           <Redirect to="/notfound" />
         </Route>
       </Switch>
