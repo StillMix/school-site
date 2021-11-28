@@ -1,0 +1,131 @@
+.EducationCard{
+    margin-top:20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+box-sizing: border-box;
+}
+
+.EducationCard-white{
+border: 1px solid #000000;
+}
+.EducationCard-dark{
+border: 1px solid #FFFFFF;
+}
+
+.EducationCard__container{
+    flex-wrap: wrap;
+    position: relative;
+        padding-top: 7px;
+    padding-bottom: 11px;
+    display: flex;
+    width: 100%;
+}
+
+.EducationCard__container-white{
+    background: #14589B;
+}
+
+.EducationCard__container-dark{
+    background: #FFFFFF;
+}
+
+.EducationCard__title{
+    margin-left: 15px;
+    margin: 0;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+}
+
+.EducationCard__title-white{
+   color: #FFFFFF; 
+}
+
+.EducationCard__title-dark{
+   color: #000000;
+}
+
+.EducationCard__average{
+    font-family: Roboto;
+    position: absolute;
+    right: 10px;
+    top: -11px;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+.EducationCard__average-white{
+   color: #FFFFFF; 
+}
+
+.EducationCard__average-dark{
+   color: #000000;
+}
+
+.EducationCard__five{
+    width: 62px;
+height: 62px;
+margin-left: 15px;
+
+background: #00BD1E;
+border-radius: 10px;
+}
+
+.EducationCard__four{
+        width: 62px;
+height: 62px;
+margin-left: 15px;
+
+background: #9BFF1C;
+border-radius: 10px;
+}
+.EducationCard__three{
+        width: 62px;
+height: 62px;
+margin-left: 15px;
+
+background: #DCAF0F;
+border-radius: 10px;
+}
+.EducationCard__two{
+        width: 62px;
+height: 62px;
+margin-left: 15px;
+
+background: #A50000;
+border-radius: 10px;
+}
+
+.EducationCard__name{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+margin: 0;
+margin-top: 13px;
+color: #FFFFFF;
+}
+
+.EducationCard__date{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+margin-top: 3px;
+
+color: #FFFFFF;
+}
