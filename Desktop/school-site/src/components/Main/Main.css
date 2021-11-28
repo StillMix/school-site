@@ -1,0 +1,50 @@
+.main{
+    margin-left: 15.6%;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 71px;
+}
+
+.main__title{
+    margin-top: 0;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 41px;
+}
+
+.main__title-white{
+    transition: all 0.3s ease-out;
+    color: #1765B3;
+}
+
+.main__title-dark{
+    transition: all 0.3s ease-out;
+    color: #FFFFFF;
+}
+
+.main__container{
+   margin-right: auto;
+   margin-left: auto;
+   width: 1248px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+    .main{
+        text-align: center;
+       margin-left: 30%;
+    }
+    .main__container{
+    width: 450px;
+} 
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1920px)  {
+    .main__container{
+   width: 90%;
+} 
+}
