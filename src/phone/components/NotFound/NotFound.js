@@ -10,14 +10,14 @@ function NotFound(props) {
         history.goBack();
     };
     return(
-        <div className={`${props.tems ? 'notfound__dark' : 'notfound__white'}`}>
-         <div className="notfound">
-                <img alt="значок" className="notfound__img" src={props.tems ? Dark : White}/>
-                <p className={`notfound__title ${props.tems ? 'notfound__title-dark' : 'notfound__title-white'}`}>NOT FOUND</p>
+        <div className={`${props.tems ? 'notfoundMobile__dark' : 'notfoundMobile__white'}`}>
+         <div className="notfoundMobile">
+                <img alt="значок" className="notfoundMobile__img" src={props.tems ? Dark : White}/>
+                <p className={`notfoundMobile__title ${props.tems ? 'notfoundMobile__title-dark' : 'notfoundMobile__title-white'}`}>NOT FOUND</p>
          </div>
-            <p className={`notfound__error ${props.tems ? 'notfound__error-dark' : 'notfound__error-white'}`}>404</p>
-            <p className={`notfound_error_text ${props.tems ? 'notfound_error_text-dark' : 'notfound_error_text-white'}`}>страница не найдена</p>
-            <button onClick={handleBack} className="notfound__btn hover">Назад</button>
+            <p className={`notfoundMobile__error ${props.tems ? 'notfoundMobile__error-dark' : 'notfoundMobile__error-white'}`}>404</p>
+            <p className={`notfoundMobile_error_text ${props.tems ? 'notfoundMobile_error_text-dark' : 'notfoundMobile_error_text-white'}`}>страница не найдена</p>
+            <button onClick={handleBack} className="notfoundMobile__btn hover">Назад</button>
      </div>
     );
 }

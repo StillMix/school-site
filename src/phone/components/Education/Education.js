@@ -28,6 +28,30 @@ function Education(props) {
                     name: 3,
                     date: 12.01
                 }
+                ,
+                {
+                    id: 5,
+                    name: 3,
+                    date: 12.01
+                }
+                ,
+                {
+                    id: 6,
+                    name: 3,
+                    date: 12.01
+                }
+                ,
+                {
+                    id: 7,
+                    name: 3,
+                    date: 12.01
+                }
+                ,
+                {
+                    id: 8,
+                    name: 3,
+                    date: 12.01
+                }
             ]
         },
         {
@@ -256,7 +280,7 @@ function Education(props) {
     ]
 
     return (
-        <div className="education">
+        <div className="educationMobile">
           {
               card.map((i) => {
                   return <EducationCard key={i.id} tems={props.tems} card={i}/>

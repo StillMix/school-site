@@ -14,7 +14,7 @@ function EducationCard(props) {
     }
     const sum = sumMap && props.card.mark ? sumMap / props.card.mark.length : null;
     return (
-        <div className={`EducationCard ${props.tems ? 'EducationCard-dark' : 'EducationCard-white'}`}>
+        <div className={`EducationCardMobile ${props.tems ? 'EducationCardMobile-dark' : 'EducationCardMobile-white'}`}>
             <div className={`EducationCard__container ${props.tems ? 'EducationCard__container-dark' : 'EducationCard__container-white'}`}>
                 <p className={`EducationCard__title ${props.tems ? 'EducationCard__title-dark' : 'EducationCard__title-white'}`}>{props.card.name}</p>
                 <p className={`EducationCard__average ${props.tems ? 'EducationCard__average-dark' : 'EducationCard__average-white'}`}>Ср.{sum}</p>

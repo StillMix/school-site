@@ -1,4 +1,4 @@
-.notfound__dark{
+.notfoundMobile__dark{
     text-align: center;
     height: 100vh;
         flex-direction: column;
@@ -7,50 +7,51 @@
     align-items: center;
 }
 
-.notfound__white{
-        flex-direction: column;
+.notfoundMobile__white{
+    padding: 0;
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.notfound{
-    top: 139px;
+.notfoundMobile{
+    text-align: center;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
-    position: relative;
+    width: 100%;
     padding: 0;
-    display: flex;
 }
-.notfound__img{
+.notfoundMobile__img{
+    margin-top: 10px;
+    width: 204px;
     padding: 0;
-    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.notfound__title{
-    position: absolute;
+.notfoundMobile__title{
     padding: 0;
-    margin-top: 2;
+    margin-top: 9px;
     display: block;
-    margin-left: 259px;
-    font-family: Roboto;
+   font-family: Roboto;
 font-style: normal;
 font-weight: 900;
-font-size: 80px;
-line-height: 94px;
+font-size: 62px;
+line-height: 74px;
 }
 
-.notfound__title-dark{
+.notfoundMobile__title-dark{
     color: #A3A3A3;
 }
 
-.notfound__title-white{
+.notfoundMobile__title-white{
     color: #000000;
 }
 
-.notfound__error{
-    margin-top: 150px;
+.notfoundMobile__error{
+    margin-top: 0px;
     text-align: center;
 font-family: Roboto;
 font-style: normal;
@@ -59,16 +60,16 @@ font-size: 90px;
 line-height: 105px;
 }
 
-.notfound__error-dark{
+.notfoundMobile__error-dark{
     color: #A3A3A3;
 }
 
-.notfound__error-white{
+.notfoundMobile__error-white{
     color: #000000;
 }
 
-.notfound_error_text{
-    margin-top: 223px;
+.notfoundMobile_error_text{
+    margin-top: 29px;
     text-align: center;
     bottom: 184px;
 font-family: Roboto;
@@ -78,15 +79,15 @@ font-size: 20px;
 line-height: 23px;
 }
 
-.notfound_error_text-dark{
+.notfoundMobile_error_text-dark{
     color: #A3A3A3;
 }
 
-.notfound_error_text-white{
+.notfoundMobile_error_text-white{
     color: #000000;
 }
 
-.notfound__btn{
+.notfoundMobile__btn{
     width: 55px;
 height: 23px;
     margin-left: auto;
@@ -101,18 +102,4 @@ color: #4285F4;
 outline: none;
 border: none;
 background: transparent;
-}
-
-@media screen and (max-width: 1024px) {
-    .notfound{
-        width: 780px;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-    .notfound__title{
-        width: 12ch;
-font-size: 70px;
-margin-left: 245px;
-} 
 }

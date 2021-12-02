@@ -1,4 +1,4 @@
-.EducationCard{
+.EducationCardMobile{
     margin-top:20px;
     width: 90%;
     margin-left: auto;
@@ -6,10 +6,10 @@
 box-sizing: border-box;
 }
 
-.EducationCard-white{
+.EducationCardMobile-white{
 border: 1px solid #000000;
 }
-.EducationCard-dark{
+.EducationCardMobile-dark{
 border: 1px solid #FFFFFF;
 }
 
@@ -76,6 +76,7 @@ color: #FFFFFF;
 }
 
 .EducationCard__five{
+    margin-top: 5px;
     width: 62px;
 height: 62px;
 margin-left: 15px;
@@ -85,6 +86,7 @@ border-radius: 10px;
 }
 
 .EducationCard__four{
+    margin-top: 5px;
         width: 62px;
 height: 62px;
 margin-left: 15px;
@@ -93,6 +95,7 @@ background: #9BFF1C;
 border-radius: 10px;
 }
 .EducationCard__three{
+    margin-top: 5px;
         width: 62px;
 height: 62px;
 margin-left: 15px;
@@ -101,6 +104,7 @@ background: #DCAF0F;
 border-radius: 10px;
 }
 .EducationCard__two{
+    margin-top: 5px;
         width: 62px;
 height: 62px;
 margin-left: 15px;
@@ -133,13 +137,13 @@ color: #FFFFFF;
 }
 
 .educationCard__null{
-    margin-left: 20px;
     font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 25px;
 line-height: 29px;
 margin: 0;
+margin-left: 20px;
 margin-top: 13px;
 }
 
