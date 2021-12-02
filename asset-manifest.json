@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/school-site/static/css/main.667f0f89.chunk.css",
-    "main.js": "/school-site/static/js/main.51911fbf.chunk.js",
-    "main.js.map": "/school-site/static/js/main.51911fbf.chunk.js.map",
+    "main.css": "/school-site/static/css/main.60f7f07b.chunk.css",
+    "main.js": "/school-site/static/js/main.a06bd0f8.chunk.js",
+    "main.js.map": "/school-site/static/js/main.a06bd0f8.chunk.js.map",
     "runtime-main.js": "/school-site/static/js/runtime-main.c3946fac.js",
     "runtime-main.js.map": "/school-site/static/js/runtime-main.c3946fac.js.map",
     "static/js/2.50dee90c.chunk.js": "/school-site/static/js/2.50dee90c.chunk.js",
     "static/js/2.50dee90c.chunk.js.map": "/school-site/static/js/2.50dee90c.chunk.js.map",
     "index.html": "/school-site/index.html",
-    "static/css/main.667f0f89.chunk.css.map": "/school-site/static/css/main.667f0f89.chunk.css.map",
+    "static/css/main.60f7f07b.chunk.css.map": "/school-site/static/css/main.60f7f07b.chunk.css.map",
     "static/js/2.50dee90c.chunk.js.LICENSE.txt": "/school-site/static/js/2.50dee90c.chunk.js.LICENSE.txt",
     "static/media/NotFoundDark.1ae28fdf.svg": "/school-site/static/media/NotFoundDark.1ae28fdf.svg",
     "static/media/NotFoundWhite.78130c47.svg": "/school-site/static/media/NotFoundWhite.78130c47.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.c3946fac.js",
     "static/js/2.50dee90c.chunk.js",
-    "static/css/main.667f0f89.chunk.css",
-    "static/js/main.51911fbf.chunk.js"
+    "static/css/main.60f7f07b.chunk.css",
+    "static/js/main.a06bd0f8.chunk.js"
   ]
 }
