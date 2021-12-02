@@ -1,14 +1,12 @@
 .education{
     margin-left: 15.6%;
     margin-top: 0;
-    text-align: center;
     padding-top: 71px;
     padding-bottom: 40px;
 }
 
 @media screen and (max-width: 1024px) {
     .education{
-        text-align: center;
        margin-left: 30%;
     }
 }

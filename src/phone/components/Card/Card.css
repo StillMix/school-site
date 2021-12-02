@@ -1,0 +1,41 @@
+.cardMobile{
+    text-align: center;
+    margin-top: 15px;
+    border: 1px solid red;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.cardMobile__img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.cardMobile__title{
+    font-family: Roboto;
+font-style: italic;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+ margin: 0;
+ margin-top: 20px;
+
+}
+
+.cardMobile__about{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+}
+
+.cardMobile-white{
+    color: #000000;
+}
+
+.cardMobile-dark{
+    color: #FFFFFF;
+}
+

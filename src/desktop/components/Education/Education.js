@@ -47,27 +47,11 @@ function Education(props) {
             ]
         },
         {
-            id: '1',
+            id: '3',
             name: 'Физика',
         },
         {
-            id: '2',
-            name: 'Физика',
-            mark: [
-                {
-                    id: 1,
-                    name: 5,
-                    date: 12.01
-                },
-                {
-                    id: 2,
-                    name: 4,
-                    date: 12.01
-                },
-            ]
-        },
-        {
-            id: '2',
+            id: '4',
             name: 'Физика',
             mark: [
                 {
@@ -83,7 +67,7 @@ function Education(props) {
             ]
         },
         {
-            id: '2',
+            id: '5',
             name: 'Физика',
             mark: [
                 {
@@ -99,7 +83,7 @@ function Education(props) {
             ]
         },
         {
-            id: '2',
+            id: '6',
             name: 'Физика',
             mark: [
                 {
@@ -115,7 +99,7 @@ function Education(props) {
             ]
         },
         {
-            id: '2',
+            id: '7',
             name: 'Физика',
             mark: [
                 {
@@ -131,7 +115,7 @@ function Education(props) {
             ]
         },
         {
-            id: '2',
+            id: '8',
             name: 'Физика',
             mark: [
                 {
@@ -147,22 +131,7 @@ function Education(props) {
             ]
         },
         {
-            id: '2',
-            name: 'Физика',
-            mark: [
-                {
-                    id: 1,
-                    name: 5,
-                    date: 12.01
-                },
-                {
-                    id: 2,
-                    name: 4,
-                    date: 12.01
-                },
-            ]
-        }, {
-            id: '2',
+            id: '9',
             name: 'Физика',
             mark: [
                 {
@@ -178,7 +147,7 @@ function Education(props) {
             ]
         },
         {
-            id: '2',
+            id: '10',
             name: 'Физика',
             mark: [
                 {
@@ -193,7 +162,23 @@ function Education(props) {
                 },
             ]
         }, {
-            id: '2',
+            id: '11',
+            name: 'Физика',
+            mark: [
+                {
+                    id: 1,
+                    name: 5,
+                    date: 12.01
+                },
+                {
+                    id: 2,
+                    name: 4,
+                    date: 12.01
+                },
+            ]
+        },
+        {
+            id: '12',
             name: 'Физика',
             mark: [
                 {
@@ -208,7 +193,7 @@ function Education(props) {
                 },
             ]
         }, {
-            id: '2',
+            id: '13',
             name: 'Физика',
             mark: [
                 {
@@ -223,7 +208,7 @@ function Education(props) {
                 },
             ]
         }, {
-            id: '2',
+            id: '14',
             name: 'Физика',
             mark: [
                 {
@@ -238,7 +223,7 @@ function Education(props) {
                 },
             ]
         }, {
-            id: '2',
+            id: '15',
             name: 'Физика',
             mark: [
                 {
@@ -253,67 +238,7 @@ function Education(props) {
                 },
             ]
         }, {
-            id: '2',
-            name: 'Физика',
-            mark: [
-                {
-                    id: 1,
-                    name: 5,
-                    date: 12.01
-                },
-                {
-                    id: 2,
-                    name: 4,
-                    date: 12.01
-                },
-            ]
-        }, {
-            id: '2',
-            name: 'Физика',
-            mark: [
-                {
-                    id: 1,
-                    name: 5,
-                    date: 12.01
-                },
-                {
-                    id: 2,
-                    name: 4,
-                    date: 12.01
-                },
-            ]
-        }, {
-            id: '2',
-            name: 'Физика',
-            mark: [
-                {
-                    id: 1,
-                    name: 5,
-                    date: 12.01
-                },
-                {
-                    id: 2,
-                    name: 4,
-                    date: 12.01
-                },
-            ]
-        }, {
-            id: '2',
-            name: 'Физика',
-            mark: [
-                {
-                    id: 1,
-                    name: 5,
-                    date: 12.01
-                },
-                {
-                    id: 2,
-                    name: 4,
-                    date: 12.01
-                },
-            ]
-        }, {
-            id: '2',
+            id: '16',
             name: 'Физика',
             mark: [
                 {

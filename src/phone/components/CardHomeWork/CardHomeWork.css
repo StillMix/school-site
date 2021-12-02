@@ -1,0 +1,119 @@
+.cardhomeworkMobile__title{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+}
+
+.cardhomeworkMobile{
+    width: 100%;
+}
+
+.cardhomeworkMobile__title-white{
+     color: #111111;
+}
+
+.cardhomeworkMobile__title-dark{
+    color: #FFFFFF;
+}
+
+.cardhomeworkMobile__container{
+    display: flex;
+    width: 100%;
+    height: 411px;
+    border-radius: 5px;
+}
+
+.cardhomeworkMobile__container-dark{
+    background: #626262;
+}
+
+.cardhomeworkMobile__container-white{
+    background: #1970C7;
+}
+
+.line{
+    border: 2px solid #FFFFFF;
+    height: 90%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 100px;
+}
+
+.cardhomeworkMobile__lessons{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.cardhomeworkMobile__container-lesson{
+    width: 100%;
+}
+
+.cardhomeworkMobile__lesson{
+    margin-left: 42px;
+    text-align: left;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;
+}
+
+.cardhomeworkMobile_lesson_btn{
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 3px;
+    height: 12.63px;
+     background: #FFFFFF;
+     border-radius: 16px;
+}
+
+.cardhomeworkMobile_lesson_btn-dark{
+color: #626262;
+}
+
+.cardhomeworkMobile_lesson_btn-white{
+    color: #1970C7;
+}
+
+.cardhomeworkMobile__container-homework{
+   width: 100%;
+    text-align: center;
+}
+
+.cardhomeworkMobile__homeworks{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.cardhomeworkMobile__homework{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+}
+
+

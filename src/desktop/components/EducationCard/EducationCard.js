@@ -1,3 +1,5 @@
+/* eslint-disable array-callback-return */
+/* eslint-disable eqeqeq */
 import React from 'react';
 import './EducationCard.css';
 
@@ -32,7 +34,9 @@ function EducationCard(props) {
                     if (i.name == 2) {
                         return <div key={i.id} className="EducationCard__two"><p className="EducationCard__name">{i.name}</p><p className="EducationCard__date">{i.date}</p></div>
                     }
-                }) : null
+                }) : (
+                            <p className={`educationCard__null ${props.tems ? 'educationCard__null-dark' : 'educationCard__null-white'}`}>Оценок пока что нет</p>
+                            )
             }
             </div>
         </div>
